@@ -1,0 +1,67 @@
+.Product_container {
+  display: flex;
+  flex-direction: row;
+  /* background-color: yellow; */
+  height: auto;
+}
+.Info_container {
+  /* box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19); */
+  background-color: white;
+  margin: 5px;
+  padding: 0%;
+  height: auto;
+}
+.img_style {
+  height: 140px;
+  max-height: 140px;
+  max-width: 168px;
+  width: 168px;
+}
+.font_style {
+  color: black;
+  text-align: left;
+  line-height: 19.2px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+
+  margin: 10px;
+  padding: 10px;
+}
+
+.headers {
+  text-align: left;
+  font-weight: 400;
+}
+.font_style_2 {
+  color: black;
+  text-align: left;
+  line-height: 19.2px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+
+  margin: 10px;
+  padding: 10px;
+}
+
+.Anmelden-btn {
+  margin: 1rem;
+  background-color: #0771d0;
+  color: azure;
+  border: none;
+  height: 1.5rem;
+  width: 6rem;
+  border-radius: 8%;
+}
+.Anmelden-btn2 {
+  margin: 1rem;
+  background-color: #085daa;
+  border-color: aliceblue;
+  border-width: 0.1rem;
+  border-radius: 5%;
+  font-size: 14px;
+  height: 2.1rem;
+  width: fit-content;
+  padding: 4px;
+}

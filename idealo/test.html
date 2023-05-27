@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .scroll-container {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .scroll-list {
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+
+      .scroll-list ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+      }
+
+      .scroll-list li {
+        display: inline-block;
+        padding: 0 10px; /* Adjust spacing as needed */
+      }
+
+      .scroll-arrows {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        text-align: center;
+      }
+
+      .scroll-arrow {
+        display: inline-block;
+        font-size: 24px;
+        cursor: pointer;
+        margin: 0 10px; /* Adjust spacing as needed */
+      }
+
+      .scroll-left::before {
+        content: "\2039"; /* Unicode code point for left arrow symbol */
+      }
+
+      .scroll-right::before {
+        content: "\203A"; /* Unicode code point for right arrow symbol */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="scroll-container">
+      <div class="scroll-list">
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <li>Item 3</li>
+          <!-- Add more list items as needed -->
+        </ul>
+      </div>
+      <div class="scroll-arrows">
+        <span class="scroll-arrow scroll-left">&lt;</span>
+        <span class="scroll-arrow scroll-right">&gt;</span>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,685 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>idealo</title>
+    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./image.css" />
+    <!-- <link rel="stylesheet" href="./image.js" /> -->
+    <link rel="stylesheet" href="./footer.css" />
+    <link rel="stylesheet" href="./body.css" />
+    <link rel="stylesheet" href="product.css" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- ###################### CompanyLogo ####################### -->
+      <div>
+        <a href="https://www.idealo.de">
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 657 200"
+            width="120"
+            height="60"
+            x="0"
+            y="0"
+          >
+            <title>idealo - Deutschlands großer Preisvergleich</title>
+            <path
+              fill="#FFFFFF"
+              d="M0 0h34v27H0zm0 41h34v93H0zm54 34.2c0-6.3-.1-12 1-17.1 1.1-5.1 3.5-10 7.1-13.7C65.7 40.8 71 38 77.9 36s16.2-3 27.9-3h8.4c3.8 0 7.6.3 11.2.9 3.7.6 7 1.6 10.1 3.2 3.1 1.5 5.6 3.6 7.7 6.1 2 2.5 3.2 5.7 3.8 9.5l.1-52.7h33.8v132.9H149V115c-1 3.1-2.8 5.1-4.5 7.4-1.7 2.4-3.9 4.4-6.7 6.2-2.8 1.7-6.4 3-10.4 3.9-4 .9-7.8 1.3-13.3 1.3h-8.2c-11.7 0-21-1-27.9-3-6.9-2-12.2-4.8-15.9-8.5-3.6-3.6-6-7.3-7.1-12.4-1.1-5.1-1-10.8-1-17.1V75.2zm32.8 14.3c0 2.8.2 5.3.6 7.6.4 2.3 1.3 4.1 2.6 5.6s3.3 2.6 5.9 3.4c2.6.8 6.2 1.2 10.9 1.2h18.5c3.7 0 7-.3 9.9-.8 2.9-.5 5.3-1.5 7.2-2.9 1.9-1.4 3.4-3.3 4.3-5.7 1-2.4 1.5-5.5 1.5-9.4v-10c0-3.9-.5-7-1.5-9.4-1-2.4-2.4-4.3-4.3-5.7-1.9-1.4-4.3-2.4-7.2-2.9-2.9-.5-6.2-.8-9.9-.8h-18.5c-4.6 0-8.2.4-10.9 1.2-2.6.8-4.6 1.9-5.9 3.4-1.3 1.5-2.2 3.3-2.6 5.6-.4 2.3-.6 4.8-.6 7.6v12zM288.2 107c-.5 5.1-5.4 6.1-13.3 6.1h-23.4c-8 0-16.8-4-16.8-12.6v-6.7h87V77.3c0-32.6-15-44.3-52.7-44.3h-25c-25.7 0-43 11.4-43 47.1v9.2c0 40.3 23.4 44.7 46.9 44.7h33.8c29.4 0 39.9-5.9 40.2-27h-33.7zm-53.3-37.4c0-10.3 4.1-15.8 17.1-15.8h20.1c12.9 0 17.1 5.4 17.1 15.8V74H235v-4.4zM335 98.9c0-26 37-24.8 40.2-24.8H402c6.9 0 16.3 2.3 19.5 5.7l.6.6V69.8c0-10.3-3.9-16-16.8-16h-20.1c-10.8 0-16.7 1.5-16.7 6.2H338c0-20.2 16.3-27 42.4-27H420c23.6 0 35.9 12.4 35.9 35.2V133h-33.8v-12.6l-2 3.5c-5.7 8.2-10.1 10.1-27.3 10.1H369c-21 0-34-4.4-34-26.9v-8.2zm74.4 15.3c9.3 0 12.9-3.7 12.9-10.6 0-12-3-13.7-21.2-13.9h-16.2c-13.5-.1-16.8 3.3-16.9 10.5-.2 11 3.4 14 16.9 14h24.5zM476 134h34V0h-34v134zm53-62.4c0-32.1 21.1-38.6 39.7-38.6h48.5c18.6 0 39.7 6.5 39.7 38.6v23.8c0 32.1-21.1 38.6-39.7 38.6h-48.5c-18.6 0-39.7-6.5-39.7-38.6V71.6zm32.8 17.7c0 2.8.2 5.4.6 7.6.4 2.3 1.3 4.2 2.6 5.6 1.3 1.5 3.4 2.6 6 3.4 2.7.8 6.4 1.2 11.1 1.2h18.5c3.8 0 7.1-.3 10.1-.8s5.4-1.5 7.4-2.9 3.4-3.3 4.4-5.7c1-2.4 1.5-5.6 1.5-9.5v-9.6c0-3.9-.5-7-1.5-9.5-1-2.4-2.5-4.3-4.4-5.7-2-1.4-4.4-2.4-7.4-2.9s-6.3-.8-10.1-.8h-18.5c-4.7 0-8.4.4-11.1 1.2-2.7.8-4.7 1.9-6 3.4-1.3 1.5-2.2 3.4-2.6 5.6-.4 2.3-.6 4.8-.6 7.6v11.8z"
+            ></path>
+            <path fill="#FF6600" d="M0 200h657v-27H0v27z"></path>
+          </svg>
+        </a>
+        <h1 id="HeaderFont">Germany's big price comparison</h1>
+      </div>
+      <!-- ##################### NavLink ######################### -->
+      <div class="TopNav">
+        <a href="defualt">SHOPPING</a>
+        <a href="defualt">FLUGE</a>
+        <a href="defualt">HOTEL</a>
+        <a href="defualt">FLUG+HOTEL</a>
+        <a href="defualt">MAGAZIN</a>
+      </div>
+      <!-- ###################### IconMenu ############################# -->
+      <div class="SecNav-container">
+        <ul class="IconMenuBar-container">
+          <li><button class="dropbtn">Categories</button></li>
+          <li><button class="dropbtn">News</button></li>
+          <li></li>
+          <li><button class="dropbtn">Merkzettel</button></li>
+          <li><button class="dropbtn">Register</button></li>
+        </ul>
+      </div>
+      <!-- ############################## SecNavBar ######################## -->
+      <nav>
+        <ul class="SecNav-container">
+          <span id="SecnavFont">Currently trend:</span>
+          <li><a href="defualt">bargain</a></li>
+          <li><a href="defualt">Picture Frame</a></li>
+          <li><a href="defualt">camera filter</a></li>
+          <li><a href="defualt">Coffee glasses & tea glasses</a></li>
+          <li><a href="defualt">christmas decoration</a></li>
+          <li><a href="defualt">Knitting & Crocheting</a></li>
+          <li><a href="defualt">bike fenders</a></li>
+          <li><a href="defualt">musical instruments for children</a></li>
+          <li><a href="defualt">air pumps</a></li>
+          <li><a href="defualt">swimwear</a></li>
+          <li><a href="defualt">gaming chairs</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section style="margin: 2vw 8vw 2vw 8vw">
+      <h2 class="headers">Zuletzt angesehen</h2>
+      <hr />
+      <div class="Product_container">
+        <a href="" class="Info_container">
+          <img src="last seen/irobot-roomba-j7-combo.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€849.00</span
+              >
+            </p>
+            <p style="font-weight: 700">iRobot Roomba j7+ combo</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img src="last seen/dreame-bot-z10-pro.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€392.40</span
+              >
+            </p>
+            <p style="font-weight: 700">Dreame Z10 Pro</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img
+            src="last seen/eufy-robovac-lr30-hybrid.jpg"
+            class="imagestyle"
+          />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€359.00</span
+              >
+            </p>
+            <p style="font-weight: 700">Eufy Robovac LR30 Hybrid+</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img src="last seen/ecovacs-deebot-x1-omni.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€969.00</span
+              >
+            </p>
+            <p style="font-weight: 700">ECOVACS DEEBOT X1 OMNI</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img src="last seen/roborock-s7-maxv-ultra.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€1.127.00</span
+              >
+            </p>
+            <p style="font-weight: 700">Roborock S7 MaxV Ultra</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img src="last seen/irobot-roomba-j7-combo.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€849.00</span
+              >
+            </p>
+            <p style="font-weight: 700">iRobot Roomba j7+ combo</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+      </div>
+    </section>
+    <section style="margin: 2vw 8vw 2vw 8vw">
+      <h2 class="headers">Das könnte Dich auch interessieren</h2>
+      <hr />
+      <div class="Product_container">
+        <a href="" class="Info_container">
+          <img
+            src="intrested in/roborock-s7-pro-ultra.jpg"
+            class="imagestyle"
+          />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€839.00</span
+              >
+            </p>
+            <p style="font-weight: 700">roborock-s7-pro-ultra</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img
+            src="intrested in/roborock-s8-pro-ultra.jpg"
+            class="imagestyle"
+          />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€1.409.00</span
+              >
+            </p>
+            <p style="font-weight: 700">roborock-s8-pro-ultra</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img src="intrested in/roborock-s7-maxv.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€609.89</span
+              >
+            </p>
+            <p style="font-weight: 700">roborock-s7-maxv</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img src="intrested in/dreame-l10s-ultra.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€999.00</span
+              >
+            </p>
+            <p style="font-weight: 700">dreame-l10s-ultra</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img
+            src="intrested in/roborock-s7-pro-ultra.jpg"
+            class="imagestyle"
+          />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€839.00</span
+              >
+            </p>
+            <p style="font-weight: 700">roborock-s7-pro-ultra</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img src="last seen/irobot-roomba-j7-combo.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€849.00</span
+              >
+            </p>
+            <p style="font-weight: 700">iRobot Roomba j7+ combo</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+      </div>
+    </section>
+    <section style="margin: 2vw 8vw 2vw 8vw">
+      <h2 class="headers">Beliebteste Produkte</h2>
+      <hr />
+      <div class="Product_container">
+        <a href="" class="Info_container">
+          <img src="popular/best.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€222.00</span
+              >
+            </p>
+            <p style="font-weight: 700">Apple airpods pro 2</p>
+            <p>Bluetooth-Kopfhörer</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img
+            src="popular/samsung-galaxy-a54-128gb-awesome-graphite.jpg"
+            class="imagestyle"
+          />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€378.40</span
+              >
+            </p>
+            <p style="font-weight: 700">samsung-galaxy-a54-128gb</p>
+            <p>Andriod Handy</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img
+            src="popular/sony-playstation-5-ps5-standard-edition.jpg"
+            class="imagestyle"
+          />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€535.00</span
+              >
+            </p>
+            <p style="font-weight: 700">
+              sony-playstation-5-ps5-standard-edition
+            </p>
+            <p>Heimkosole</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img
+            src="popular/the-legend-of-zelda-tears-of-the-kingdom-switch.jpg"
+            class="imagestyle"
+          />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€59.90</span
+              >
+            </p>
+            <p style="font-weight: 700">
+              the legend of zelda tears of the kingdom switch
+            </p>
+            <p>Switch-Actionspiel</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img
+            src="popular/samsung-galaxy-s23-ultra-256gb-phantom-black.jpg"
+            class="imagestyle"
+          />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€899.00</span
+              >
+            </p>
+            <p style="font-weight: 700">samsung-galaxy-s23-ultra-256gb</p>
+            <p>5G handy</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img
+            src="popular/nintendo-switch-pro-controller-the-legend-of-zelda-tears-of-the-kingdom-edition.jpg"
+            class="imagestyle"
+          />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€82.00</span
+              >
+            </p>
+            <p style="font-weight: 700">nintendo-switch-pro-controller-the</p>
+            <p>Switch-controller</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+      </div>
+    </section>
+    <section style="background-color: #d7e3ef; width: 100%; margin-top: 5vh">
+      <h2 style="text-align: center; font-weight: 400; padding-top: 5vh">
+        idealo Schnäppchen, Aktionen & News per E-Mail erhalten
+      </h2>
+      <button class="Anmelden-btn">Anmelden</button>
+      <p style="color: #1f7ad1">Alle Schnäppchen anzeigen</p>
+
+      <div class="Product_container" style="margin: 2vw 8vw 2vw 8vw">
+        <a href="" class="Info_container">
+          <img src="last seen/irobot-roomba-j7-combo.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€849.00</span
+              >
+            </p>
+            <p style="font-weight: 700">iRobot Roomba j7+ combo</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img src="last seen/dreame-bot-z10-pro.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€392.40</span
+              >
+            </p>
+            <p style="font-weight: 700">Dreame Z10 Pro</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img
+            src="last seen/eufy-robovac-lr30-hybrid.jpg"
+            class="imagestyle"
+          />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€359.00</span
+              >
+            </p>
+            <p style="font-weight: 700">Eufy Robovac LR30 Hybrid+</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img src="last seen/ecovacs-deebot-x1-omni.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€969.00</span
+              >
+            </p>
+            <p style="font-weight: 700">ECOVACS DEEBOT X1 OMNI</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img src="last seen/roborock-s7-maxv-ultra.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€1.127.00</span
+              >
+            </p>
+            <p style="font-weight: 700">Roborock S7 MaxV Ultra</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img src="last seen/irobot-roomba-j7-combo.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€849.00</span
+              >
+            </p>
+            <p style="font-weight: 700">iRobot Roomba j7+ combo</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+      </div>
+      <p
+        style="
+          color: #0a3761;
+          text-align: center;
+          font-size: 0.8rem;
+          padding: 10px;
+        "
+      >
+        % (außer Reise Deals) = Ersparnis gegenüber dem Durchschnittspreis der
+        letzten 90 Tage. Zur Berechnung des Durchschnittspreises summieren wir
+        die jeweils günstigsten Tagespreise der letzten 90 Tage und teilen durch
+        90.
+      </p>
+    </section>
+    <section style="background-color: #085daa">
+      <h2
+        style="
+          text-align: center;
+          color: white;
+          font-weight: 400;
+          padding-top: 5vh;
+        "
+      >
+        Günstiger reisen mit idealo
+      </h2>
+      <button class="Anmelden-btn2">
+        Alle Last Minute Flüge Deals anzeigen
+      </button>
+      <div class="Product_container">
+        <a href="" class="Info_container" style="background-color: white">
+          <img src="last seen/irobot-roomba-j7-combo.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€849.00</span
+              >
+            </p>
+            <p style="font-weight: 700">iRobot Roomba j7+ combo</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img src="last seen/dreame-bot-z10-pro.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€392.40</span
+              >
+            </p>
+            <p style="font-weight: 700">Dreame Z10 Pro</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img
+            src="last seen/eufy-robovac-lr30-hybrid.jpg"
+            class="imagestyle"
+          />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€359.00</span
+              >
+            </p>
+            <p style="font-weight: 700">Eufy Robovac LR30 Hybrid+</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img src="last seen/ecovacs-deebot-x1-omni.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€969.00</span
+              >
+            </p>
+            <p style="font-weight: 700">ECOVACS DEEBOT X1 OMNI</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img src="last seen/roborock-s7-maxv-ultra.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€1.127.00</span
+              >
+            </p>
+            <p style="font-weight: 700">Roborock S7 MaxV Ultra</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+        <a href="" class="Info_container">
+          <img src="last seen/irobot-roomba-j7-combo.jpg" class="imagestyle" />
+          <div class="font_style">
+            <p>
+              ab<span style="color: #ff6600; font-size: 30px; font-weight: 700"
+                >€849.00</span
+              >
+            </p>
+            <p style="font-weight: 700">iRobot Roomba j7+ combo</p>
+            <p>Saugroboter</p>
+            <img
+              height="16"
+              src="//cdn.idealo.com/storage/ids-assets/svg/fast-delivery/de.svg"
+              width="110"
+            />
+          </div>
+        </a>
+      </div>
+    </section>
+    <footer class="footer">
+      <div>
+        <p>footer</p>
+      </div>
+    </footer>
+  </body>
+</html>

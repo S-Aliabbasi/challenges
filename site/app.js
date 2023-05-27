@@ -1,9 +1,7 @@
-const Bname = ["ali", "fateme", "maryam", "amin"];
-let Lastname = "moharrami";
-let FullName = [];
-
-console.log("sona");
-for (let i = Bname.length; i == 0; i--) {
-  FullName = `${Bname} ${Lastname}`;
-  console.log(FullName);
+function calc(num, num1) {
+  //const golobalnum=20;
+  let result = num + num1;
+  return result;
 }
+
+console.log(calc("A", [2, 5, 7]));
